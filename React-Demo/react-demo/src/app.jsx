@@ -2,7 +2,13 @@ import React from "react"
 // import Home from "./Home"
 // import MyNav from "./MyNav"
 // import StateComponent from "./StateComponent"
-import ComponentLife from "./ComponentLife"
+// import ComponentLife from "./ComponentLife"
+// import SetStateDemo from "./setStateDemo"
+// import IfDemo from "./ifDemo"
+// import KeyDemo from "./KeyDemo"
+import FormDemo from "./FormDemo"
+import RefsAndDOM from "./RefsAndDOM";
+
 // 用类的形式创建组件，Hook形式
 class App extends React.Component{
 
@@ -33,8 +39,12 @@ class App extends React.Component{
                 <MyNav nav={ nav1 } title = "路径导航"/>
                 <MyNav nav={ nav2 } title = "学习导航"/> */}
                 {/* <StateComponent /> */}
-                <ComponentLife title = { this.state.title } clickChanges = { this.clickChange }/>
-                {/* <button onClick={ this.clickChange }>修改title</button> */}
+                {/* <ComponentLife title = { this.state.title } clickChanges = { this.clickChange }/> */}
+                {/* <SetStateDemo /> */}
+                {/* <IfDemo /> */}
+                {/* <KeyDemo /> */}
+                <FormDemo />
+                <RefsAndDOM />
             </div>
         )
     }
