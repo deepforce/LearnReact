@@ -1,4 +1,5 @@
 import React from "react"
+
 // import Home from "./Home"
 // import MyNav from "./MyNav"
 // import StateComponent from "./StateComponent"
@@ -9,7 +10,9 @@ import React from "react"
 // import FormDemo from "./FormDemo"
 // import RefsAndDOM from "./RefsAndDOM";
 // import RefsFrom from "./RefsForm";
-import Parent from "./components/parent";
+// import Parent from "./components/parent";
+// import Compose from "./compose";
+import PropsTypeDemo from "./PropsTypeDemo";
 
 // 用类的形式创建组件，Hook形式
 class App extends React.Component{
@@ -48,8 +51,11 @@ class App extends React.Component{
                 {/* <FormDemo /> */}
                 {/* <RefsAndDOM /> */}
                 {/* <RefsFrom /> */}
-                <Parent />
-
+                {/* <Parent /> */}
+                {/* <Compose >
+                    <div>我是组合效果</div>
+                </Compose> */}
+                <PropsTypeDemo title="标题"/>
             </div>
         )
     }

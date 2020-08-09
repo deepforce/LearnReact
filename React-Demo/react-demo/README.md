@@ -74,3 +74,9 @@ es6的新特性参考https://es6.ruanyifeng.com/****
 
 ### 状态提升
 组件之间的数据交互
+
+### 组合 vs 继承
+this.props.children
+
+### 使用 PropTypes 进行类型检查
+增强程序的健壮性
