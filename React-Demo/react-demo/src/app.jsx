@@ -7,7 +7,8 @@ import React from "react"
 // import IfDemo from "./ifDemo"
 // import KeyDemo from "./KeyDemo"
 import FormDemo from "./FormDemo"
-import RefsAndDOM from "./RefsAndDOM";
+// import RefsAndDOM from "./RefsAndDOM";
+import RefsFrom from "./RefsForm";
 
 // 用类的形式创建组件，Hook形式
 class App extends React.Component{
@@ -44,7 +45,8 @@ class App extends React.Component{
                 {/* <IfDemo /> */}
                 {/* <KeyDemo /> */}
                 <FormDemo />
-                <RefsAndDOM />
+                {/* <RefsAndDOM /> */}
+                <RefsFrom />
             </div>
         )
     }
